@@ -1,0 +1,40 @@
+Bill of Materials
+
+-digikey part numbers-
+
+
+1 - MAX7221 dip (MAX7221CNG+-ND)
+1 - current set resistor 1/8th watt min.
+  - value: see below
+4 - six-pin 0.1" pitch female headers (S7004-ND)
+1 - six pin male headers (S1012E-06-ND)
+1 - 24-pin 0.3" socket (ED3049-5-ND)
+2 - common cathode 4-digit 7-segment displays (160-1879-ND)
+
+
+  
+Resistor value: 
+To determine Resistor Value measure forward voltage drop of LED Segment, and check maximum forward current, then consult table
+
++---------+----------------------------------+
+|ISEG(mA) |            VLED (V)              |
+|         | 1.5  |  2.0 | 2.5  | 3.0  | 3.5  |
++---------+------+------+------+------+------+
+|   40    | 12.2 | 11.8 | 11.0 | 10.6 | 9.69 |
+|   30    | 17.8 | 17.1 | 15.8 | 15.0 | 14.0 |
+|   20    | 29.8 | 28.0 | 25.9 | 24.5 | 22.6 |
+|   10    | 66.7 | 63.7 | 59.3 | 55.4 | 51.2 |
++---------+------+------+------+------+------+
+  
+note: these materials are sugesstions only!
+      headers can be purchaced cheaply on ebay/amazon
+      
+      I purchaced my materials from aliexpress in bulk.
+      
+      ensure: 
+       - ~8.5 mm or higher height on the Female Headers to allow the IC to seat well underneath.
+       - the correct pinout on the common cathode 7-segment modules.
+       -- Digits - 0-3 - (12,9,8,6) 
+       -- Segments - A-G,DP - (11,7,4,2,1,10,5,3)
+
+      
